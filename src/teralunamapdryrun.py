@@ -15,4 +15,4 @@ df=df.withColumn("double_amount", df.total_volume*2)
 print(df.show(5))
 
 df.write.mode('overwrite') \
-    .saveAsTable("sujini.terralunapp")
+    .saveAsTable("pythongroup.terralunapp")
